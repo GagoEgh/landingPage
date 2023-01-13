@@ -1,0 +1,118 @@
+.block{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__button button{
+    background-color: #1E1E1E;
+    height: 42px;
+    width: 175px;
+    border-radius: 131px;
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #8276FF;
+    cursor: pointer;
+}
+
+.header__sale{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+}
+
+.sale{
+    max-width: 787px;
+}
+
+.cyber span{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 69px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.cyber{
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #FFC759;
+    margin: 0;
+}
+
+
+.text{
+    width: 250px;
+    size: 16px;
+    line-height: 24.5px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.save{
+    width: 211px;
+    height: 54px;
+    left: 299px;
+    top: 459px;
+    background: #8276FF;
+    border-radius: 31px;
+    cursor: pointer;
+}
+
+.imgs{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+
+.vector{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.imgs span{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 17px;
+}
+
+.rating{
+    margin-top: 65px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.rating p{
+    margin-left: 10px;
+}
+
+.brands{
+    margin-top: 30px;
+    display: flex;
+}
+
+.brands{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands img{
+    width: 118px;
+    height: 25px;
+}
+
+.img-sale{
+    max-width: 550px;
+}

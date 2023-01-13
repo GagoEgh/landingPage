@@ -1,0 +1,41 @@
+.sections{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-style: italic;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 0.007em;
+    color: white;
+    text-align: center;
+    margin: 210px 0 195px 0;
+   
+}
+
+.section{
+    width: 540px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    border-radius: 10px;
+}
+
+.block{
+    text-align: center;
+}
+
+.block img{
+    margin-top: 210px;
+}
+
+
+@media only screen and (max-width: 1080px){
+    .section{
+        width: 340px;
+    }
+
+    .block img{
+        margin-top: 110px;
+    }
+}

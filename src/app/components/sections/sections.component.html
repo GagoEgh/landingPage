@@ -1,0 +1,16 @@
+<div class="neon">
+    <p>{{cyberMonday.discount}}</p>
+</div>
+<section>
+    <h2 class="name">{{cyberMonday.name}}</h2>
+    <span class="beforeSum">{{cyberMonday.beforeSum | currency}}</span>
+    <p class="sum">{{cyberMonday.sum | currency}}</p>
+    <p class="month">{{cyberMonday.month}}</p>
+    <ul>
+        <li class="detail" *ngFor="let detali of cyberMonday.detalis" >
+           {{detali}}
+        </li>
+    </ul>
+    <button class="deal">GET YOUR DEAL</button>
+</section>
+

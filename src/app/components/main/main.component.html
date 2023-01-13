@@ -1,0 +1,18 @@
+<h2 class="big">Save Big on All Features <br><span class="span">no exceptions</span> </h2>
+<main class="main container">
+    <nav class="nav">
+        <ul>
+            <li class="nav__li" *ngFor="let nav of navigation">
+                <img class="nav__img" [src]="nav.img">
+                <a class="nav__rout" 
+                routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+                [routerLink]="nav.router">{{nav.text}}</a>
+              
+            </li>
+
+        </ul>
+    </nav>
+
+    <router-outlet></router-outlet>
+
+</main>

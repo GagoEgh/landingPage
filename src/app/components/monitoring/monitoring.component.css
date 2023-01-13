@@ -1,0 +1,42 @@
+.text{
+    padding-left: 20px;
+}
+.time{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.time h1{
+    width: 660px;
+    font-size: 39px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.007em;
+    margin-bottom: 30px;
+
+}
+
+
+.detail{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.007em;
+}
+
+
+.button{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    background: #8276FF;
+    color: white;
+    height: 54px;
+    width: 267px;
+    border-radius: 31px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}

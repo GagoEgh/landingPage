@@ -1,0 +1,117 @@
+section{
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-bottom: 65px;
+}
+
+.name{
+    font-family: 'Source Sans Pro';
+    font-size: 39px;
+    font-weight: 700;
+    /* padding-top: 53px; */
+    margin-bottom: 50px;
+}
+
+.sum{
+    font-style:bold ;
+    font-size:80px ;
+}
+
+
+
+.beforeSum{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-style: bold;
+    font-size: 31px;
+}
+
+.beforeSum::after{
+    content: '';
+    display: block;
+    background: #F354B4;
+    height: 3px;
+    width: 60px;
+    transform: rotate(-25deg);
+    position: relative;
+    top: -20px;
+    left: 0;
+    
+}
+
+.month{
+    height: 60px;
+    color: rgb(197, 194, 194);
+    font-size: 28px;
+}
+
+ul{
+    text-align: left;
+    margin-left: 32%;
+}
+
+.deal{
+    width: 250px;
+    height: 54px;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 40px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+}
+
+
+.neon{
+    background-image: url("/assets/imges/sections/neon.png");
+    background-size: 264px 247px;
+    width: 264px;
+    height: 247px;
+    position: relative;
+    left: 65%;
+    top: -15%;
+}
+
+.neon p{
+    font-size: 60px;
+    color: white;
+    font-family:  'Source Sans Pro';
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 0;
+}
+
+
+ @media only screen and (max-width: 1080px){
+  
+    .neon{
+        background-image: url("/assets/imges/sections/neon.png");
+        background-size: 140px 140px;
+        width: 140px;
+        height: 140px;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 75%;
+        top: -8%;
+    }
+
+    .neon p{
+        font-size: 25px;
+        top: 30%;
+        left: 7%;
+    }
+
+    .beforeSum{
+        position: absolute;
+        top: 12%;
+        left: 15%;
+    }
+} 

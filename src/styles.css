@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background:  #12111dfa;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+.detail{
+    padding: 5px;
+    font-size: 20px;
+    max-width: 250px;
+}
+
+
+.detail::before{
+    content: '\2713';
+    color: #2ECD6F;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    left: -5%;
+}
+
